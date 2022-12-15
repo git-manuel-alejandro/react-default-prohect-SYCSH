@@ -1,0 +1,40 @@
+.title {
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.form {
+    background-color: white;
+    border-radius: 6px;
+
+    &__item {
+        padding: 2rem;
+
+    }
+
+    &__label {
+        display: block;
+        margin: 0;
+        margin-bottom: 0.3rem;
+
+        font-size: 1.3rem;
+        font-weight: 700;
+
+
+    }
+
+    &__input {
+        display: block;
+        border: 1px solid #e1e1e1;
+        margin: 1rem 0;
+        padding: 1rem;
+        border-radius: 6px;
+        margin: 0;
+        width: 100%;
+        font-size: 1.3rem;
+    }
+}

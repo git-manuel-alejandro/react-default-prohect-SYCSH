@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as mix;
+
+
+body {
+    background-color: #e1e1e1;
+}
+
+.container {
+    margin: 3rem;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+
+    @include mix.tablet {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
