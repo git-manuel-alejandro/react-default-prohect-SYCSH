@@ -1,0 +1,17 @@
+.form__label{
+    display: block;
+}
+
+.error{
+    width: 100%;
+    background-color: rgb(185 28 28);
+    padding: 1rem;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.success{
+    background-color: rgb(185 28 28);
+}
