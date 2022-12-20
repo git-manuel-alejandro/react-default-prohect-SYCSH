@@ -14,6 +14,17 @@ body {
   flex-direction: column;
   gap: 2rem;
 
+
+  &__msg{
+    // border: 1px solid red;
+    display: block;
+    margin: 3rem auto;
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  
+  }
+
 //   @include mix.tablet {
 //     flex-direction: row;
 //     justify-content: space-between;

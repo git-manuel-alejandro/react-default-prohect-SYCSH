@@ -14,4 +14,56 @@
             font-weight: 400;
             text-transform: none;        }
     }
+
+    &__btn{
+        all: unset;
+
+        padding: 1.5rem;
+        background-color: rgb(79 70 229);
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+.botones{
+    margin:  0 auto;
+  
+
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    &__btn{
+        all: unset;
+
+       
+      
+        padding: 1.5rem;
+        background-color: rgb(79 70 229);
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+   
+        width: 30%;
+        text-align: center;
+        border-radius: 6px;
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(67 56 202);
+        }
+
+        &__delete{
+            background-color: rgb(185 28 28);
+
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(153 27 27);
+            }
+    
+          
+        }
+
+    }
+
+
 }
